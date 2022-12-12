@@ -29,11 +29,12 @@ class HomePage extends StatelessWidget {
             const SizedBox(
               height: 48.0,
             ),
-            const Padding(
+            Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.0),
               child: Text(
                 'Good Morning',
-                style: TextStyle(fontSize: 20),
+                style:
+                    GoogleFonts.lobsterTwo(fontSize: 20, color: Colors.black),
               ),
             ),
             const SizedBox(
@@ -62,12 +63,10 @@ class HomePage extends StatelessWidget {
               height: 24.0,
             ),
             // fresh item grid
-            const Padding(
+            Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.0),
-              child: Text(
-                'Fresh items',
-                style: TextStyle(fontSize: 16),
-              ),
+              child:
+                  Text('Fresh items', style: GoogleFonts.roboto(fontSize: 25)),
             ),
             Expanded(
               child: Consumer<CartModel>(

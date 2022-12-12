@@ -17,7 +17,7 @@ class IntroPage extends StatelessWidget {
           child: Image.asset('lib/images/avocado.png'),
         ),
         Padding(
-          padding: EdgeInsets.all(24.0),
+          padding: const EdgeInsets.all(24.0),
           child: Text(
             'we deliver grocery at your doorstep',
             textAlign: TextAlign.center,
@@ -57,7 +57,7 @@ class IntroPage extends StatelessWidget {
             ),
           ),
         ),
-        Spacer(),
+        const Spacer(),
       ]),
     );
   }
